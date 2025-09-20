@@ -22,5 +22,9 @@ Pequeña aplicación para practicar lógica de programación: variables, condici
 ![Agregar](screenshots/paso1.png)  
 ![Resultado](screenshots/paso2.png)
 
+## Versión
+- Se mejoró la validación de nombres duplicados.
+
 ## Autor
 Brenda Cahuari — Septiembre 2025
+
