@@ -7,7 +7,7 @@ const listaAmigos = document.getElementById("listaAmigos"); // ul donde se lista
 const listaResultado = document.getElementById("resultado"); // ul donde se muestran resultados
 
 // Función para mostrar la lista de amigos
-function mostrarParticipantes() {
+function mostrarParticipantes(❌) {
   listaAmigos.innerHTML = "";
   participantes.forEach((p, i) => {
     const li = document.createElement("li");
@@ -15,7 +15,7 @@ function mostrarParticipantes() {
 
     // Botón eliminar
     const btnEliminar = document.createElement("button");
-    btnEliminar.textContent = "-";
+    btnEliminar.textContent = "";
     btnEliminar.onclick = () => {
       participantes.splice(i, 1);
       mostrarParticipantes();
@@ -70,6 +70,7 @@ function sortearAmigo() {
     listaResultado.appendChild(li);
   });
 }
+
 
 
 
