@@ -15,7 +15,7 @@ function mostrarParticipantes() {
 
     // Botón eliminar
     const btnEliminar = document.createElement("button");
-    btnEliminar.textContent = "❌";
+    btnEliminar.textContent = "-";
     btnEliminar.onclick = () => {
       participantes.splice(i, 1);
       mostrarParticipantes();
@@ -70,5 +70,6 @@ function sortearAmigo() {
     listaResultado.appendChild(li);
   });
 }
+
 
 
